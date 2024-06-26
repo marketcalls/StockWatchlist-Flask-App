@@ -22,27 +22,27 @@ This is a Flask-based web application for managing a stock watchlist. The applic
 
    First, clone the repository to your local machine:
 
-   \`\`\`sh
+   ```sh
    git clone https://github.com/marketcalls/StockWatchlist-Flask-App.git
    cd StockWatchlist-Flask-App
-   \`\`\`
+   ```
 
 2. **Create a Virtual Environment**
 
    It is recommended to use a virtual environment to manage dependencies. Create and activate a virtual environment using the following commands:
 
-   \`\`\`sh
+   ```sh
    python -m venv venv
-   source venv/bin/activate  # On Windows, use \`venv\Scripts\activate\`
-   \`\`\`
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
 
 3. **Install Dependencies**
 
-   Install the required Python packages using \`pip\`:
+   Install the required Python packages using `pip`:
 
-   \`\`\`sh
+   ```sh
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 4. **Set Up the Database**
 
@@ -52,23 +52,23 @@ This is a Flask-based web application for managing a stock watchlist. The applic
 
    Start the Flask development server:
 
-   \`\`\`sh
+   ```sh
    python app.py
-   \`\`\`
+   ```
 
 6. **Access the Application**
 
    Open your web browser and navigate to:
 
-   \`\`\`
+   ```
    http://127.0.0.1:5000/
-   \`\`\`
+   ```
 
    You should see the home page of the Stock Watchlist application.
 
 ### Project Structure
 
-\`\`\`plaintext
+```plaintext
 StockWatchlistApp/
 │
 ├── app.py
@@ -83,7 +83,7 @@ StockWatchlistApp/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-\`\`\`
+```
 
 ## Usage
 
